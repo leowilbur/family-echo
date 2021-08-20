@@ -1,0 +1,756 @@
+<HTML>
+
+	<HEAD>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		
+		
+<!--
+	This Family Echo file is Copyright (c) Familiality Ltd.
+
+	You are not permitted to distribute, copy, modify, merge, publish,
+	sublicense, rent, sell, lease, loan, decompile, reverse engineer or
+	create derivative works from this file.
+
+	This copyright and license notice must be kept in this file at all times.
+-->
+		
+		<LINK REL="stylesheet" TYPE="text/css" HREF="styles.css?210502">
+		<TITLE>Family Echo - Family 7</TITLE>
+		
+		<META NAME="Description" CONTENT="Draw your printable family tree online. Free and easy to use, no login required. Add photos and share with your family. Import/export GEDCOM files.">
+
+		
+		<SCRIPT language="JavaScript"><!--
+		var staticMode=false;
+		var hideSidebar=false;
+		var noCentering=false;
+		var defaultZoom=1.845;
+		var defaultDetail='';
+		var defaultBirthName=0;
+		var defaultSurnameFirst=0;
+		var defaultMaleLeft=0;
+		var defaultCousins=2;
+		var defaultChildren=8;
+		var defaultParents=5;
+		var defaultColors={
+			male : '#d6ddff',
+			female : '#ffd6ee',
+			other : '#ffffff',
+			living : '#000000',
+			deceased : '#777777',
+			borders : '#222222'
+		};
+		var defaultWidth=1;
+		var defaultLines={
+			current : 'thick',
+			otherpartner : 'medium',
+			biological : 'medium',
+			otherparent : 'gray'
+		};
+		--></SCRIPT>
+
+		<script src="prototype-ajax.js" type="text/javascript"></script>
+		<script src="common.js?210502" type="text/javascript"></script>		<script src="family.js?210502" type="text/javascript"></script>		<script src="edit.js?210502" type="text/javascript"></script>		<script src="build.js?210502" type="text/javascript"></script>		<script src="navigation.js?210502" type="text/javascript"></script>		<script src="tree.js?210502" type="text/javascript"></script>		<script src="sidebar.js?210502" type="text/javascript"></script>		
+		<script data-cfasync="false" async src="https://cdn.snigelweb.com/adengine/familyecho.com/loader.js" type="text/javascript"></script>
+	</HEAD>
+	
+	<BODY STYLE="overflow:hidden;" onLoad="PL();" onResize="EPR();">
+		<TABLE WIDTH="100%" HEIGHT="100%" CELLSPACING=0 CELLPADDING=0>
+
+
+	
+			<TR HEIGHT="8">
+				<TD STYLE="border-bottom:solid #666666 1px; padding:8px;" VALIGN="middle">
+					<FORM NAME="topform" ACTION="./" METHOD="POST">
+						<TABLE WIDTH="100%" HEIGHT="100%" CELLSPACING=0 CELLPADDING=0><TR VALIGN="middle">
+							<TD NOWRAP WIDTH="5%"><FONT STYLE="font-size:28px;">		<SPAN ID="lfamilyname"><FONT COLOR="#7F2020">Family 7</FONT></SPAN><br/><SPAN ID="lfamilyinfo" STYLE="font-size:12px;"></SPAN>
+		
+		<IFRAME ID="backframe" WIDTH="1" HEIGHT="1" FRAMEBORDER="0" SCROLLING="no"></IFRAME>
+</FONT></TD>
+			<TD WIDTH="*" ALIGN="center" NOWRAP><DIV ID="ads_banner">
+				<A HREF="#" onClick="var elem=document.getElementById('ads_banner'); elem.parentNode.removeChild(elem); return false;" STYLE="font-size:9px; text-decoration:none; vertical-align:top;">Hide:</A>
+				<DIV STYLE="display:inline-block; vertical-align:top; min-width:728px;"><div id="adngin-top_banner-0" style="max-width:970px; height:90px; overflow:hidden;"></div></DIV>
+			</DIV></TD>
+
+<TD NOWRAP ALIGN="right" WIDTH="5%">
+
+		<INPUT TYPE="hidden" ID="newscript" NAME="newscript" VALUE="">
+		<INPUT TYPE="hidden" ID="personid" NAME="personid" VALUE="START">
+		<INPUT TYPE="hidden" ID="viewpersonid" NAME="viewpersonid" VALUE="START">
+		<INPUT TYPE="hidden" ID="viewmode" NAME="viewstate" VALUE="view">
+		<INPUT TYPE="hidden" ID="name" NAME="name" VALUE="daonguyencm10@gmail.com">
+		<INPUT TYPE="hidden" ID="email" NAME="email" VALUE="">
+		
+
+		<!--<SPAN ID="advertisement" STYLE="display:none;">Also: </SPAN>-->
+		
+		<INPUT TYPE="hidden" NAME="affiliate" VALUE="">
+		<INPUT TYPE="hidden" ID="sessionid" VALUE="186021070669645328">
+				<INPUT TYPE="hidden" ID="familyid" NAME="familyid" VALUE="320944947856882755">
+		<INPUT TYPE="hidden" ID="importcacheid" NAME="importcacheid" VALUE="">
+		<INPUT TYPE="hidden" ID="checksum" NAME="checksum" VALUE="miihj6lb9d">
+
+		<INPUT TYPE="hidden" NAME="do_startbranch" ID="do_startbranch">
+		
+		<SPAN ID="lsave" STYLE="display:none;"><FONT COLOR="red"><B>Changes not saved.</B></FONT></SPAN>
+		<SPAN ID="linitial" STYLE="display:none;">Welcome <B>daonguyencm10@gmail.com</B>.</SPAN>
+		<SPAN ID="lreadonly" STYLE="display:none;"><FONT COLOR="red"><B>This family is read only.</B></FONT></SPAN>
+		<SPAN ID="lwriteone" STYLE="display:none;"><FONT COLOR="red"><B>You may only edit your own details.</B></FONT></SPAN>
+		<SPAN ID="lsaving" STYLE="display:none;">Changes being saved... </SPAN>
+		<SPAN ID="lsaved" STYLE="display:none;">All changes saved. </SPAN>
+		<br/><br/>
+
+		<SPAN ID="savefamily" STYLE="display:none;"><INPUT TYPE="submit" VALUE="Save" CLASS="ibutton" onClick="ESS(); return false;"> &nbsp;</SPAN>
+
+		<SPAN ID="sharefamily" STYLE="display:none;"><INPUT TYPE="submit" VALUE="Share" CLASS="ibutton" onClick="ESM('share'); return false;"> &nbsp;</SPAN>
+
+		<SPAN><INPUT TYPE="submit" NAME="do_account" ID="do_account" VALUE="My Account" CLASS="ibutton"> &nbsp;</SPAN>
+		<SPAN><INPUT TYPE="submit" NAME="do_logout" ID="do_logout" VALUE="Logout" CLASS="ibutton"></SPAN>
+							</TD>
+						</TR></TABLE>
+					</FORM>
+				</TD>
+			</TR>
+		<TR HEIGHT="*"><TD STYLE="position:relative;">
+			
+			<SCRIPT TYPE="text/javascript"><!--
+				document.write('<DIV ID="noajax"'+(document.getElementById ? ' STYLE="display:none;"' : '')+'><TABLE HEIGHT="100%" WIDTH="100%"><TR><TD ALIGN="center"><FONT COLOR="red"><B>Sorry. This site requires a modern web browser such as Firefox, Internet Explorer 6+ or Safari.</B></FONT></TD></TR></TABLE></DIV>');
+			--></SCRIPT>
+			
+			<NOSCRIPT>
+				<TABLE HEIGHT="100%" WIDTH="100%"><TR><TD ALIGN="center">
+					<FONT COLOR="red"><B>
+					Sorry - this site requires JavaScript in order to display your family.
+					<P>
+					If a security warning has appeared at the top of the browser window,
+					please click it to allow blocked content.
+					<P>
+					Otherwise, please switch on JavaScript in the Options... window of your browser.
+					</B></FONT>
+				</TD></TR></TABLE>
+			</NOSCRIPT>
+			
+			<DIV CLASS="fullsize" STYLE="position:relative;">
+
+				<DIV ID="treediv" CLASS="dright" STYLE="top:0px; height:100%; overflow:hidden;"><DIV ID="treemargin" CLASS="marginon" STYLE="cursor:move;"><DIV ID="treebg" CLASS="fullsize rbody" STYLE="position:relative;"></DIV></DIV></DIV>
+				
+				<DIV ID="navdiv" CLASS="dright" STYLE="bottom:0px; height:33px; overflow:hidden; "><DIV ID="navmargin" CLASS="marginon">
+					<DIV ID="navbg" CLASS="rbody" STYLE="height:100%; position:relative;">
+						
+						<DIV CLASS="lbody" STYLE="position: absolute; bottom:0; left:0; border-right:1px black solid; border-top:1px black solid;">
+							<IMG ID="sidehide" SRC="pushleft.png" STYLE="width:16px; height:16px; margin:8px; cursor:pointer;" TITLE="Hide sidebar" onClick="parent.ETI();">
+							<IMG ID="sideshow" SRC="pushright.png" STYLE="width:16px; height:16px; margin:8px; cursor:pointer; display:none;" TITLE="Show sidebar" onClick="parent.ETI();">
+						</DIV>
+						
+						<TABLE WIDTH="100%" HEIGHT="100%">
+				
+							<TR VALIGN="middle"><TD ALIGN="center">
+								<A HREF="#" onClick="parent.ETO(); return false;"><SPAN ID="optionslinktext">Show</SPAN> options</A>
+								<SPAN ID="printbutton">
+									&nbsp;&ndash;&nbsp;
+									<A HREF="#" onClick="parent.ESM('print'); return false;"><IMG SRC="print.gif" WIDTH="22" HEIGHT="22" ALIGN="ABSMIDDLE" TITLE="Print version" BORDER="0" STYLE="margin-right:4px;">Print tree</A>
+								</SPAN>
+								&nbsp;&ndash;&nbsp;
+								<IMG SRC="zoomout.gif" STYLE="width:22px; height:22px; cursor:pointer;" ALIGN="ABSMIDDLE" TITLE="Zoom out" onClick="ECZ(false);">
+								<INPUT ID="showzoom" TYPE="range" MIN="0.5" MAX="4.0" STEP="0.001" STYLE="width:96px;" onInput="parent.ESZ();" onChange="parent.ESZ();">
+								<IMG SRC="zoomin.gif" STYLE="width:22px; height:22px; cursor:pointer;" ALIGN="ABSMIDDLE" TITLE="Zoom in" onClick="ECZ(true);">
+								&nbsp;&ndash;&nbsp;
+								<!--<A HREF="#" onClick="parent.ETK(); return false;"><SPAN ID="keylinktext">Show</SPAN> key</A>
+								&nbsp;&ndash;&nbsp;-->
+								<A HREF="#" onClick="parent.EBS(); return false;">Back to <SPAN ID="backtotext">start</SPAN></A>
+								&nbsp;&ndash;&nbsp;
+								Find:
+								<INPUT ID="findfield" STYLE="width:8em;" onFocus="NFF();" onInput="NIF();" onClick="NIF();">
+							</TD></TR>
+	
+						</TABLE>
+					</DIV>
+				</DIV></DIV>
+				
+				<DIV ID="optionsdiv" CLASS="dright rbody" STYLE="bottom:33px; display:none; border-top:solid #666666 1px; text-align:center;"><DIV ID="optionsmargin" CLASS="marginon">
+					<TABLE STYLE="margin:4px auto;" CELLPADDING="4"><TR VALIGN="top">
+						<TD NOWRAP>
+							<INPUT ID="detail_0p" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_0p">Name</LABEL>
+							<br/>&nbsp; &nbsp; <INPUT ID="detail_pm" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_pm">Middle names</LABEL>
+							<br/>&nbsp; &nbsp; <INPUT ID="detail_0lq" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_0lq">Surname</LABEL>
+							<br/><INPUT ID="detail_r" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_r">Photo</LABEL>
+							<br/><INPUT ID="detail_bd" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_bd">Life years</LABEL>
+							<br/><INPUT ID="detail_j" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_j">Profession</LABEL>
+						</TD>
+						<TD NOWRAP>
+							<INPUT ID="detail_b" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_b">Birth date</LABEL>
+							<br/><INPUT ID="detail_v" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_v">Birth place</LABEL>
+							<br/><INPUT ID="detail_d" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_d">Death date</LABEL>
+							<br/><INPUT ID="detail_y" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_y">Death place</LABEL>
+							<br/><INPUT ID="detail_F" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_F">Burial date</LABEL>
+							<br/><INPUT ID="detail_U" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_U">Burial place</LABEL>
+						</TD>
+						<TD NOWRAP>
+							<INPUT ID="detail_e" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_e">Email</LABEL>
+							<br/><INPUT ID="detail_tku" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_tku">Telephone</LABEL>
+							<br/><INPUT ID="detail_a" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_a">Address</LABEL>
+							<br/><INPUT ID="detail_E" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_E">Company</LABEL>
+							<br/><INPUT ID="detail_I" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_I">Interests</LABEL>
+							<br/><INPUT ID="detail_A" TYPE="checkbox" onChange="parent.ECD(this);"> <LABEL FOR="detail_A">Activities</LABEL>
+						</TD>
+						
+						<TD STYLE="padding-left:16px; padding-bottom:0; padding-right:16px; text-align:right;" NOWRAP>
+							<SPAN CLASS="cleft">Male box:</SPAN> <INPUT ID="colormale" CLASS="cright" TYPE="color" onInput="parent.ECR(this);">
+								<a href="#" class="creset" onClick="parent.ERC('male', '#D6DDFF'); return false;">reset</a>
+							<br/><SPAN CLASS="cleft">Female box:</SPAN> <INPUT ID="colorfemale" CLASS="cright" TYPE="color" onInput="parent.ECR(this);">
+								<a href="#" class="creset" onClick="parent.ERC('female', '#FFD6EE'); return false;">reset</a>
+							<br/><SPAN CLASS="cleft">Other box:</SPAN> <INPUT ID="colorother" CLASS="cright" TYPE="color" onInput="parent.ECR(this);">
+								<a href="#" class="creset" onClick="parent.ERC('other', '#FFFFFF'); return false;">reset</a>
+							<br/><SPAN CLASS="cleft">Living text:</SPAN> <INPUT ID="colorliving" CLASS="cright" TYPE="color" onInput="parent.ECR(this);">
+								<a href="#" class="creset" onClick="parent.ERC('living', '#000000'); return false;">reset</a>
+							<br/><SPAN CLASS="cleft">Deceased text:</SPAN> <INPUT ID="colordeceased" CLASS="cright" TYPE="color" onInput="parent.ECR(this);">
+								<a href="#" class="creset" onClick="parent.ERC('deceased', '#777777'); return false;">reset</a>
+							<br/><SPAN CLASS="cleft">Box width:</SPAN> <INPUT ID="showwidth" TYPE="range" MIN="0.5" MAX="2.0" STEP="0.001" CLASS="cright" onInput="parent.ECW();" onChange="parent.ECW();">
+								<a href="#" class="creset" onClick="parent.ERW(); return false;">reset</a>
+						</TD>
+						
+						<TD STYLE="text-align:right; padding-right:16px;" NOWRAP>
+							<SPAN CLASS="oleft">Surnames:</SPAN>
+							<SELECT ID="showbirthname" CLASS="oright" onChange="parent.ESN();" TITLE="Which surname receives priority for display">
+								<OPTION VALUE="0">Now</OPTION>
+								<OPTION VALUE="1">At birth</OPTION>
+							</SELECT><br><SPAN CLASS="oleft">Given names:</SPAN>
+							<SELECT ID="showsurnamefirst" CLASS="oright" onChange="parent.ESF();" TITLE="Show given names before or after surname">
+								<OPTION VALUE="0">Before</OPTION>
+								<OPTION VALUE="1">After</OPTION>
+							</SELECT><br><SPAN CLASS="oleft">Left partner:</SPAN>
+							<SELECT ID="showmaleleft" CLASS="oright" onChange="parent.EML();" TITLE="Left-right ordering for relationships">
+								<OPTION VALUE="0">Female</OPTION>
+								<OPTION VALUE="1">Male</OPTION>
+							</SELECT><br/><LABEL CLASS="oleft">Parents:</LABEL>
+							<SELECT ID="showparents" CLASS="oright" onChange="parent.ECP();" TITLE="Generations of ancestors to display">
+								<OPTION VALUE="1">1 gen</OPTION>
+								<OPTION VALUE="2">2 gens</OPTION>
+								<OPTION VALUE="3">3 gens</OPTION>
+								<OPTION VALUE="4">4 gens</OPTION>
+								<OPTION VALUE="5">5 gens</OPTION>
+								<OPTION VALUE="6">6 gens</OPTION>
+								<OPTION VALUE="8">8 gens</OPTION>
+								<OPTION VALUE="10">10 gens</OPTION>
+								<OPTION VALUE="12">12 gens</OPTION>
+								<OPTION VALUE="15">15 gens</OPTION>
+							</SELECT><br/><SPAN CLASS="oleft">Children:</SPAN>
+							<SELECT ID="showchildren" CLASS="oright" onChange="parent.ECH();" TITLE="Generations of descendants to display">
+								<OPTION VALUE="1">1 gen</OPTION>
+								<OPTION VALUE="2">2 gens</OPTION>
+								<OPTION VALUE="3">3 gens</OPTION>
+								<OPTION VALUE="4">4 gens</OPTION>
+								<OPTION VALUE="5">5 gens</OPTION>
+								<OPTION VALUE="6">6 gens</OPTION>
+								<OPTION VALUE="8">8 gens</OPTION>
+								<OPTION VALUE="10">10 gens</OPTION>
+								<OPTION VALUE="12">12 gens</OPTION>
+								<OPTION VALUE="15">15 gens</OPTION>
+							</SELECT><br/><SPAN CLASS="oleft">Others:</SPAN>
+							<SELECT ID="showcousins" CLASS="oright" onChange="parent.ECO();" TITLE="Generations of aunts, uncles, cousins, nephews and nieces">
+								<OPTION VALUE="0">None</OPTION>
+								<OPTION VALUE="1">1 gen</OPTION>
+								<OPTION VALUE="2">2 gens</OPTION>
+								<OPTION VALUE="3">3 gens</OPTION>
+								<OPTION VALUE="4">4 gens</OPTION>
+								<OPTION VALUE="5">5 gens</OPTION>
+								<OPTION VALUE="6">6 gens</OPTION>
+								<OPTION VALUE="8">8 gens</OPTION>
+								<OPTION VALUE="10">10 gens</OPTION>
+								<OPTION VALUE="12">12 gens</OPTION>
+								<OPTION VALUE="15">15 gens</OPTION>
+							</SELECT>
+						</TD>
+
+						<TD STYLE="text-align:right;" NOWRAP>
+							<P CLASS="lright" STYLE="text-align:center; margin-bottom:0.5em;">Connecting lines</P><SPAN CLASS="lleft">Current partner:</SPAN>
+							<SELECT ID="linecurrent" CLASS="lright" onChange="parent.ECE(this);">
+								<OPTION VALUE="thin">Thin</OPTION>
+								<OPTION VALUE="medium">Medium</OPTION>
+								<OPTION VALUE="thick">Thick</OPTION>
+								<OPTION VALUE="gray">Gray</OPTION>
+								<OPTION VALUE="dashed">Dashed</OPTION>
+							</SELECT><br/><SPAN CLASS="lleft">Other partners:</SPAN>
+							<SELECT ID="lineotherpartner" CLASS="lright" onChange="parent.ECE(this);">
+								<OPTION VALUE="thin">Thin</OPTION>
+								<OPTION VALUE="medium">Medium</OPTION>
+								<OPTION VALUE="thick">Thick</OPTION>
+								<OPTION VALUE="gray">Gray</OPTION>
+								<OPTION VALUE="dashed">Dashed</OPTION>
+							</SELECT><br/><SPAN CLASS="lleft">Parents:</SPAN>
+							<SELECT ID="linebiological" CLASS="lright" onChange="parent.ECE(this);">
+								<OPTION VALUE="thin">Thin</OPTION>
+								<OPTION VALUE="medium">Medium</OPTION>
+								<OPTION VALUE="thick">Thick</OPTION>
+								<OPTION VALUE="gray">Gray</OPTION>
+								<OPTION VALUE="dashed">Dashed</OPTION>
+							</SELECT><br/><SPAN CLASS="lleft">Non-biological:</SPAN>
+							<SELECT ID="lineotherparent" CLASS="lright" onChange="parent.ECE(this);">
+								<OPTION VALUE="thin">Thin</OPTION>
+								<OPTION VALUE="medium">Medium</OPTION>
+								<OPTION VALUE="thick">Thick</OPTION>
+								<OPTION VALUE="gray">Gray</OPTION>
+								<OPTION VALUE="dashed">Dashed</OPTION>
+							</SELECT>
+						</TD>
+					</TR></TABLE>
+				</DIV></DIV>
+
+				<DIV ID="keydiv" CLASS="dright rbody" STYLE="bottom:64px; display:none; border-top:solid #666666 1px; padding:24px 0px 32px 0px; text-align:center;"><DIV ID="keymargin" CLASS="marginon"><DIV STYLE="font-size:14px; font-weight:bold; margin-bottom:24px;">Key to family tree diagram:</DIV><DIV STYLE="position:relative; margin:0 auto;" ID="keycontent"></DIV></DIV></DIV>
+
+				<DIV ID="findlist" CLASS="slist" STYLE="position:absolute; bottom:33px; height:20em; width:16em; padding:2px 0; background:#fff; border:1px solid black; display:none; overflow-x:hidden; overflow-y:auto;"></DIV>
+				
+				<DIV ID="externaldiv" CLASS="dright" STYLE="top:0px; height:100%; display:none;"><DIV ID="externalmargin" CLASS="marginon" STYLE="background-color:white;"><IFRAME ID="externalurl" CLASS="fullsize" FRAMEBORDER="0" SCROLLING="auto"></IFRAME></DIV></DIV>
+
+				<DIV ID="welcomediv" STYLE="position:absolute; width:100%; top:16px;"><DIV ID="welcomemargin" CLASS="marginon"><CENTER>
+
+				</CENTER></DIV></DIV>
+				
+				<DIV ID="leftdiv" CLASS="dleft lbody" STYLE="">
+
+					<TABLE WIDTH="100%" HEIGHT="100%" CELLSPACING=0 CELLPADDING=6><FORM onSubmit="return false;">
+
+					<TR VALIGN="top"><TD ALIGN="center">
+			
+						<SPAN ID="nametitle" CLASS="sdefname">Loading...</SPAN><BR>
+						<INPUT TYPE="image" CLASS="blankpixel" WIDTH="1" HEIGHT="6"><BR>
+			
+						<IMG ID="personimage" CLASS="simage" STYLE="display:none; margin-bottom:6px;" onClick="SIC(); return false;">
+
+						<DIV ID="nonrelations" STYLE="display:none; margin-top:6px;">
+			
+						<DIV ID="nonediting">
+							<IFRAME ID="uploadiframe" SRC="imageupload.php" CLASS="simage" STYLE="display:none; margin-top:6px; width:auto; height:120px;" SCROLLING="no" FRAMEBORDER="0"></IFRAME>
+							<INPUT ID="uploadbutton" TYPE="submit" VALUE="Upload photo" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="SIC(); return false;">
+							
+							<INPUT ID="showpath" TYPE="submit" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="parent.ESM('path'); return false;">
+							<INPUT ID="hideurl" TYPE="submit" VALUE="Back to family tree" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="parent.ESM('view'); return false;">
+							<INPUT ID="showurl" TYPE="submit" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="return UL(GE('urllink'));"><INPUT ID="urlmode" TYPE="hidden" VALUE=""><A HREF="#" ID="urllink" STYLE="display:none;"></A>
+							<INPUT ID="shareperson" TYPE="submit" VALUE="Share family" CLASS="sbutton" STYLE="display:none; margin-top:6px;" onClick="parent.ESM('share'); return false;">
+						</DIV>
+		
+						<TABLE WIDTH="100%" CELLSPACING=0 CELLPADDING=0 STYLE="margin-top:12px;">
+							<TR>
+								<TD ALIGN="center" ID="switchpanel0" CLASS="sswitched">
+									<A HREF="#" onMouseDown="SWA(0); return false;" ID="switchlink0" CLASS="sswitchedlink">Personal</A>
+								</TD>
+								<TD ALIGN="center" ID="switchpanel3" CLASS="sswitch">
+									<A HREF="#" onMouseDown="SWA(3); return false;" ID="switchlink3">Partners</A>
+								</TD>
+								<TD ALIGN="center" ID="switchpanel1" CLASS="sswitch">
+									<A HREF="#" onMouseDown="SWA(1); return false;" ID="switchlink1">Contact</A>
+								</TD>
+								<TD ALIGN="center" ID="switchpanel2" CLASS="sswitch">
+									<A HREF="#" onMouseDown="SWA(2); return false;" ID="switchlink2">Biographical</A>
+								</TD>
+							</TR>
+						</TABLE>
+			
+						<TABLE WIDTH="100%" CELLSPACING=0 CELLPADDING=0 CLASS="spanel">
+							<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="6"></TD></TR>
+				
+							<TBODY ID="personalview" CLASS="hiderows">
+							</TBODY>
+				
+							<TBODY ID="personaledit" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft">
+										Given names:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="personalname" CLASS="sfield" onChange="SCV('personalname');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Surname now:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="familyname" CLASS="sfield" onChange="SCV('familyname');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Surname at birth:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="familybirth" CLASS="sfield" onChange="SCV('familybirth');" onFocus="SFV('familybirth');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft" VALIGN="baseline">
+										Gender:
+									</TD>
+									<TD CLASS="sright" VALIGN="baseline">
+										<DIV STYLE="margin-top:2px; vertical-align:middle;">
+											<INPUT TYPE="radio" NAME="gender" ID="gender_f" onClick="SSG('f');" STYLE="margin-right:4px;"><LABEL FOR="gender_f">Female</LABEL>&nbsp;<INPUT TYPE="radio" NAME="gender" ID="gender_m" onClick="SSG('m');" STYLE="margin-right:4px;"><LABEL FOR="gender_m">Male</LABEL>&nbsp;<INPUT TYPE="radio" NAME="gender" ID="gender_o" onClick="SCV('othergender'); FS('othergender');" STYLE="margin-right:4px;"><LABEL FOR="gender_o">Other:</LABEL>
+										</DIV>
+										<DIV ID="othergenderdiv" STYLE="margin-top:4px; display:none;">
+											<INPUT ID="othergender" CLASS="sfield" onChange="SCV('othergender');">
+										</DIV>
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft" VALIGN="baseline">
+										Birth date:
+									</TD>
+									<TD CLASS="sright" VALIGN="baseline" ID="birthdate">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+									</TD>
+									<TD CLASS="sright">
+										<DIV STYLE="margin:2px 0px;">
+											<INPUT TYPE="checkbox" ID="alive" onClick="SCV('alive');">
+											<LABEL FOR="alive">This person is living</LABEL>
+										</DIV>
+									</TD>
+								</TR>
+							</TBODY>
+							<TBODY ID="personaleditdeath" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft" VALIGN="baseline">
+										Death date:
+									</TD>
+									<TD CLASS="sright" VALIGN="baseline" ID="deathdate">
+									</TD>
+								</TR>
+							</TBODY>
+				
+							<TBODY ID="partnersviewedit" CLASS="hiderows">
+							</TBODY>
+				
+							<TBODY ID="contactview" CLASS="hiderows">
+							</TBODY>
+
+							<TBODY ID="contactedit" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft">
+										Email:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="c_email" CLASS="sfield" onChange="SCV('c_email');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Website:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="website" CLASS="sfield" onChange="SCV('website');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Blog:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="blog" CLASS="sfield" onChange="SCV('blog');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Photo site:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="photosite" CLASS="sfield" onChange="SCV('photosite');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Home tel:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="hometel" CLASS="sfield" onChange="SCV('hometel');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Work tel:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="worktel" CLASS="sfield" onChange="SCV('worktel');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Mobile:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="mobile" CLASS="sfield" onChange="SCV('mobile');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Skype:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="skype" CLASS="sfield" onChange="SCV('skype');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Address:
+									</TD>
+									<TD CLASS="sright">
+										<TEXTAREA ID="address" CLASS="sfield" ROWS=3 onChange="SCV('address');"></TEXTAREA>
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Other:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="othercontact" CLASS="sfield" onChange="SCV('othercontact');">
+									</TD>
+								</TR>
+							</TBODY>
+
+							<TBODY ID="bioview" CLASS="hiderows">
+							</TBODY>
+
+							<TBODY ID="bioedit1" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft">
+										Birth place:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="birthplace" CLASS="sfield" onChange="SCV('birthplace');">
+									</TD>
+								</TR>
+							</TBODY>
+
+							<TBODY ID="bioeditdeath" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft">
+										Death place:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="deathplace" CLASS="sfield" onChange="SCV('deathplace');">
+									</TD>
+								</TR>
+
+								<TR>
+									<TD CLASS="sleft">
+										Burial place:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="burialplace" CLASS="sfield" onChange="SCV('burialplace');">
+									</TD>
+								</TR>
+
+								<TR>
+									<TD CLASS="sleft" VALIGN="baseline">
+										Burial date:
+									</TD>
+									<TD CLASS="sright" VALIGN="baseline" ID="burialdate">
+									</TD>
+								</TR>
+							</TBODY>
+
+							<TBODY ID="bioedit2" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sleft">
+										Profession:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="profession" CLASS="sfield" onChange="SCV('profession');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Company:
+									</TD>
+									<TD CLASS="sright">
+										<INPUT ID="employer" CLASS="sfield" onChange="SCV('employer');">
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Interests:
+									</TD>
+									<TD CLASS="sright">
+										<TEXTAREA ID="interests" CLASS="sfield" ROWS=3 onChange="SCV('interests');"></TEXTAREA>
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Activities:
+									</TD>
+									<TD CLASS="sright">
+										<TEXTAREA ID="activities" CLASS="sfield" ROWS=3 onChange="SCV('activities');"></TEXTAREA>
+									</TD>
+								</TR>
+								<TR>
+									<TD CLASS="sleft">
+										Bio notes:
+									</TD>
+									<TD CLASS="sright">
+										<TEXTAREA ID="bionotes" CLASS="sfield" ROWS=4 onChange="SCV('bionotes');"></TEXTAREA>
+									</TD>
+								</TR>
+							</TBODY>
+
+							<TBODY ID="viewfooter" CLASS="hiderows">
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="6"></TD></TR>
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<INPUT TYPE="submit" ID="editbutton" VALUE="Edit details" CLASS="sbutton" onClick="SED(); return false;">
+									</TD>
+								</TR>
+							</TBODY>
+				
+							<TBODY ID="editfooter" CLASS="hiderows">
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="12"></TD></TR>
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										You can also add or change details later.
+									</TD>
+								</TR>
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="6"></TD></TR>
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<INPUT TYPE="submit" VALUE="OK" CLASS="sbutton2" onClick="SAS(); return false;">
+										&nbsp;
+										<INPUT TYPE="submit" VALUE="Cancel" CLASS="sbutton2" onClick="SCS(); return false;">
+									</TD>
+								</TR>
+							</TBODY>
+				
+							<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="6"></TD></TR>
+						</TABLE>
+			
+						</DIV>
+
+						<TABLE WIDTH="100%" CELLSPACING=0 CELLPADDING=0>
+							<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="12"></TD></TR>
+			
+							<TBODY ID="readonlyfooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										You are not currently permitted to edit this family.
+									</TD>
+								</TR>
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="12"></TD></TR>
+							</TBODY>
+
+							<TBODY ID="writemefooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<A HREF="#" onClick="parent.GE('do_signin').click(); return false;">Sign in</A>
+										to add more people to this family.
+									</TD>
+								</TR>
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="12"></TD></TR>
+							</TBODY>
+
+							<TBODY ID="writenotfooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<A HREF="#" onClick="parent.GE('do_signin').click(); return false;">Sign in</A>
+										to edit these details or add new people.
+									</TD>
+								</TR>
+								<TR><TD><IMG CLASS="blankpixel" WIDTH="1" HEIGHT="12"></TD></TR>
+							</TBODY>
+				
+							<TBODY ID="relactions" CLASS="hiderows">
+							</TBODY>
+						</TABLE>
+			
+					</TD></TR>
+			
+					<TR VALIGN="bottom"><TD ALIGN="center">
+						<TABLE WIDTH="100%" CELLSPACING=0 CELLPADDING=0>
+							<TBODY ID="importfooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<INPUT TYPE="submit" VALUE="Import GEDCOM or FamilyScript..." CLASS="sbutton" onClick="parent.ESM('import'); return false;">
+									</TD>
+								</TR>
+							</TBODY>
+							<TBODY ID="clearfooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<INPUT TYPE="submit" VALUE="Clear family and start over..." CLASS="sbutton" onClick="SCC(); return false;">
+									</TD>
+								</TR>
+							</TBODY>
+							<TBODY ID="downloadfooter" CLASS="hiderows">
+								<TR>
+									<TD CLASS="sboth" COLSPAN="2">
+										<INPUT TYPE="submit" VALUE="Download / export this family..." CLASS="sbutton" onClick="parent.ESM('download'); return false;">
+									</TD>
+								</TR>
+							</TBODY>
+						</TABLE>
+					</TD></TR>
+		
+					</FORM></TABLE>
+
+				</DIV>
+
+				<DIV ID="pathdiv" CLASS="dleft lbody" STYLE="text-align:center; display:none;">
+					<DIV STYLE="padding:6px;">
+						<DIV ID="pathtitle" CLASS="sname" STYLE="margin-bottom:12px;"></DIV>
+						<INPUT TYPE="submit" VALUE="Change start person" ID="changepathstart" CLASS="sbutton" STYLE="margin-bottom:6px;" onClick="SPS(); return false;">
+						<SELECT ID="pathstartid" CLASS="sfield" STYLE="display:none;" onChange="SSS();"></SELECT>
+						<DIV ID="pathcontent" STYLE="margin-bottom:12px;"></DIV>
+						<INPUT TYPE="submit" VALUE="Done" CLASS="sbutton" onClick="parent.ESM('view'); return false;">
+					</DIV>
+				</DIV>
+				
+				<DIV ID="extradiv" CLASS="dleft lbody" STYLE="visibility:hidden;"><IFRAME ID="extraframe" CLASS="fullsize" FRAMEBORDER="0" SCROLLING="auto"></IFRAME></DIV>
+				
+				<TEXTAREA READONLY ID="exporttext" CLASS="rbody" STYLE="top:0px; height:100%; width:100%; position:absolute; display:none; border:0; padding:0.5em; font-family:monospace;"></TEXTAREA>
+				
+			</DIV>
+
+		</TD></TR>
+
+			<TR HEIGHT="8">
+				<TD STYLE="border-top:solid #666666 1px; padding:8px;" VALIGN="middle">
+					<DIV STYLE="float:left;">
+						<SPAN ID="lfooterlinks">
+							<A HREF="./?page=about" TARGET="_new" onClick="return UL(this);" TITLE="About Family Echo">About</A>
+							&nbsp; &nbsp;
+							<A HREF="./?page=faqs" TARGET="_new" onClick="return UL(this);" TITLE="Frequently Asked Questions">FAQs</A>
+							&nbsp; &nbsp;
+							<A HREF="./?page=api" TARGET="_new" onClick="return UL(this);" TITLE="Family Tree API">API</A>
+							&nbsp; &nbsp;
+							<A HREF="http://www.magicbabynames.com/" TARGET="_new" onClick="return UL(this);" TITLE="Baby Names from Family Trees">Baby Names</A>
+							&nbsp; &nbsp;
+							<A HREF="./?page=resources" TARGET="_new" onClick="return UL(this);" TITLE="Genealogy Links and Information">Resources</A>
+							&nbsp; &nbsp;
+							<A HREF="./?page=terms" TARGET="_new" onClick="return UL(this);" TITLE="Terms of Use Agreement">Terms</A>
+							/
+							<A HREF="./?page=policies" TARGET="_new" onClick="return UL(this);" TITLE="Privacy and Download Policies">Data Policies</A>
+							&nbsp; &nbsp;
+							<A HREF="http://answers.familyecho.com/" TARGET="_blank" TITLE="Family Echo Questions and Answers">Help Forum</A>
+							&nbsp; &nbsp;
+							<A HREF="./?page=feedback" TARGET="_new" onClick="return UL(this);" TITLE="How can we improve Family Echo?">Send Feedback</A>
+						</SPAN>
+					</DIV>
+					<DIV STYLE="float:right;">
+						&copy; Familiality 2007-2021 - All rights reserved					</DIV>
+				</TD>
+			</TR>
+		</TABLE>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1165533-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	</BODY>
+
+</HTML>
